@@ -12,10 +12,10 @@
       </div>
       <div class="row">
         {% for blog in blogs %}
-        <div class="col-md-6">\
+        <div class="col-md-6">
           <div class="box">
             <div class="img-box">
-              <img src="{% static 'images/blog1.jpg'%}" alt="">
+              <img src="{{blog.img.url}}" alt="bu yerda rasm chiqishi kerak edi">
             </div>
             <div class="detail-box">
               <h5>
