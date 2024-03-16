@@ -8,6 +8,7 @@
         <div class="col-md-6">
           <div class="detail-box">
             <div class="heading_container">
+              {% if about_us %}
               <h2>
                 Biz haqimizda
               </h2>
@@ -16,9 +17,7 @@
             <p>
               {{about_us.body}}
             </p>
-            <a href="">
-              Read More
-            </a>
+            {% endif %}
           </div>
         </div>
         <div class="col-md-6">
